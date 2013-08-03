@@ -26,9 +26,9 @@ public class MainGui  {
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		
 		JPanel topPanel = new JPanel(new MigLayout());
-		final JTextField url = new JTextField("192.168.1.45");
+		final JTextField url = new JTextField("192.168.1.145");
 		url.setColumns(60);
-		final JTextField port = new JTextField("5060");
+		final JTextField port = new JTextField("1010");
 		port.setColumns(10);
 		topPanel.setSize(100, 20);
 		topPanel.add(url);
