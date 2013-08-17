@@ -54,11 +54,13 @@ public class MainGui  {
 			public void onResponse(byte[] data) {
 				
 				output.append(new String(data));
+				output.append("=======END RESPONSE=======\n");
 			}
 			
 			@Override
 			public void onError(String error) {
-				output.append("Exception " + error);
+				output.append("Exception: " + error + "\n");
+				
 			}
 		};
 		btn.addMouseListener(new MouseListener() {
