@@ -27,7 +27,7 @@ public class MainGui  {
 		
 		JPanel topPanel = new JPanel(new MigLayout());
 		final JTextField url = new JTextField("192.168.1.145");
-		url.setColumns(60);
+		url.setColumns(50);
 		final JTextField port = new JTextField("1010");
 		port.setColumns(10);
 		topPanel.setSize(100, 20);
